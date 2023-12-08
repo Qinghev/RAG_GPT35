@@ -15,7 +15,7 @@ This project aims to implement Retrieval-Augmented Generation (RAG) for question
 ### 6. Knowledge Graph Integration
 - Attempted integration with a knowledge graph using SPARQLWrapper, but encountered issues.
 ### 7. Test Performance
-- The RAG model demonstrated improved performance compared to previous methods across the additional five test examples. The BLEU and ROUGE scores for these examples further support the model's enhanced accuracy in generating answers.
+- The RAG model demonstrated improved performance compared to previous methods across the additional five test examples. The BLEU (Bilingual Evaluation Understudy) and ROUGE (Recall-Oriented Understudy for Gisting Evaluation) scores for these examples further support the model's enhanced accuracy in generating answers.
 
 ## Test Result
 I test five examples, using BLEU and ROUGE to evaluate the performace.
@@ -38,7 +38,7 @@ I test five examples, using BLEU and ROUGE to evaluate the performace.
   Overall, computer science has enabled scientists to do things that were once impossible, and has opened up new frontiers in scientific research and discovery."
 - rag_answer: Computer science has contributed to more general scientific development by facilitating large-scale archiving of scientific data. It has also led to advancements in fields such as artificial intelligence, database design, and computer networking, which have aided scientific research and analysis. Additionally, computer science has allowed for the development of advanced computer hardware, which has increased the speed and accuracy of scientific simulations and calculations.
 - reference answer: by facilitating large-scale archiving of scientific data
-#### BLUE Score:
+#### BLEU Score:
 - Original Score: 0.006466530409101146
 - rag Score: 0.08625819491779424
 #### ROUGE Score:
@@ -50,7 +50,7 @@ I test five examples, using BLEU and ROUGE to evaluate the performace.
 - Original answer: Lucy L. Johnston developed a situated perspective on emotion along with Andrea Scarantino.
 - rag_answer: Paul E. Griffiths developed a situated perspective on emotion along with Andrea Scarantino.
 - reference answer: Paul E. Griffiths
-#### BLUE Score:
+#### BLEU Score:
 - Original Score: 0
 - rag Score: 0.19611613513818407
 #### ROUGE Score:
@@ -62,7 +62,7 @@ I test five examples, using BLEU and ROUGE to evaluate the performace.
 - Original answer: As an AI language model, I do not have access to the latest updates or current exhibitions at Jiangsu Art Gallery. However, Jiangsu Art Gallery is a comprehensive art museum that showcases various types of art, including traditional Chinese painting, calligraphy, sculpture, and contemporary art. It also hosts various thematic exhibitions throughout the year.
 - rag_answer: Jiangsu Art Gallery contains both traditional and contemporary art pieces of China.
 - reference answer: traditional and contemporary art pieces of China
-#### BLUE Score:
+#### BLEU Score:
 - Original Score: 0.041797488547959935
 - rag Score: 0.4767312946227961
 #### ROUGE Score:
@@ -74,7 +74,7 @@ I test five examples, using BLEU and ROUGE to evaluate the performace.
 - Original answer: Intellectual history and social history are used in the field of historiography, which is the study of how history is written and how historical knowledge is constructed. They are also used in academic disciplines such as history, sociology, anthropology, and cultural studies to provide insights into how people and societies have developed over time, and to understand the cultural, social, and political contexts in which ideas and movements emerged.
 - rag_answer: Historiography of science.
 - reference answer: Historiography of science
-#### BLUE Score:
+#### BLEU Score:
 - Original Score: 0.009499524940557587
 - rag Score: 0.5773502691896257
 #### ROUGE Score:
@@ -86,7 +86,7 @@ I test five examples, using BLEU and ROUGE to evaluate the performace.
 - Original answer: Several philosophers and thinkers have attacked logical positivism, including Willard Van Orman Quine, Thomas Kuhn, Karl Popper, and Ludwig Wittgenstein.
 - rag_answer: Thinkers such as Nelson Goodman, W.V. Quine, Hilary Putnam, Karl Popper, and Richard Rorty attacked logical positivism after World War II.
 - reference answer: Nelson Goodman, W.V. Quine, Hilary Putnam, Karl Popper, and Richard Rorty
-#### BLUE Score:
+#### BLEU Score:
 - Original Score: 0.14509525002200235
 - rag Score: 0.511766315719159
 #### ROUGE Score:
